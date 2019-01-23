@@ -2,7 +2,7 @@
 #include <stdbool.h>
 #include <assert.h>
 
-Serial server(D1, D0, 115200);
+RawSerial server(D1, D0, 115200);
 Serial pc(USBTX, USBRX, 115200);
 
 char data[] = "ABCDEFGHIJKLMNOPQRST";
